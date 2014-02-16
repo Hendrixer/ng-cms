@@ -1,7 +1,7 @@
 'use strict';
 
 var Q         = require('q');
-var mailer    = require('nodeMailer');
+var mailer    = require('nodemailer');
 var mongoose  = require('mogoose');
 var schema    = mongoose.Schema;
 var objectid  = schema.ObjectId;
