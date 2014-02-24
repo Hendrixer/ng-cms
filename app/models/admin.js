@@ -1,4 +1,3 @@
-'use strict';
 
 var Q         = require('q');
 var mailer    = require('nodemailer');
@@ -26,7 +25,7 @@ var AdminSchema = new schema({
 
 AdminSchema.statics.findByEmail = function(email){
   var check = false;
-  typeof email === 'string' ? check = true : throw Error('email is not a string');
+
 
   var Admin = mongoose.model('Admin');
   var search = {'email': email};
@@ -42,3 +41,4 @@ AdminSchema.statics.findByEmail = function(email){
   }
   return defer.promise;
 };
+

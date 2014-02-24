@@ -1,0 +1,35 @@
+{
+  "name": "angularPress",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Hendrixer/AngularPress",
+  "authors": [
+    "Hendrixer <willscottmoss@gmail.com>"
+  ],
+  "description": "CMS built with angular",
+  "main": "app.js",
+  "keywords": [
+    "angular",
+    "cms",
+    "node",
+    "express",
+    "mongo",
+    "mean",
+    "wordpress"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.13",
+    "angular-animate": "~1.2.13",
+    "angular-ui-router": "0.2.8-bowratic-tedium",
+    "bower-foundation-css": "*"
+  }
+}

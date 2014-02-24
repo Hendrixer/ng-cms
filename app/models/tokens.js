@@ -1,13 +1,13 @@
-'use strict';
+
 
 // scheama for expiring tokens used for password reset feature
 
 var mongoose    = require('mongoose');
-var schema      = mongoose.Schema;
-var objectid    = scheama.ObjectId;
+var Schema      = mongoose.Schema;
+var objectid    = Schema.ObjectId;
 
 // expiring tokens for admin to reset password
-var PasswordTokenSchema = new schema({
+var PasswordTokenSchema = new Schema({
   admin: {
     type: objectid,
     ref: 'Admin'

@@ -1,0 +1,9 @@
+{
+  "undef": true,
+  "unused": false,
+  "globals": {
+    "require": true,
+    "console": true,
+    "module": true
+  }
+}
